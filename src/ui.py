@@ -151,8 +151,8 @@ class UI:
 
         # Controls
         ctrl1 = self.font_md.render("空格/↑/W — 跳跃（可二段跳）", True, (220, 220, 220))
-        ctrl2 = self.font_md.render("↓/S — 滑铲", True, (220, 220, 220))
-        ctrl3 = self.font_sm.render("鼠标: 上半屏跳跃 / 下半屏滑铲", True, (180, 180, 180))
+        ctrl2 = self.font_md.render("↓/S — 下蹲（躲避上方障碍物）", True, (220, 220, 220))
+        ctrl3 = self.font_sm.render("鼠标: 上半屏跳跃 / 下半屏下蹲", True, (180, 180, 180))
         cw1, ch1 = ctrl1.get_size()
         cw2, ch2 = ctrl2.get_size()
         cw3, ch3 = ctrl3.get_size()

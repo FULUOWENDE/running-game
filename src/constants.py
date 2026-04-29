@@ -70,6 +70,44 @@ BIKE_GREEN = (60, 180, 100)
 BIKE_TIRE = (50, 50, 50)
 BIKE_RIDER = (240, 180, 60)
 
+# ── Overhead Obstacles (slide-under) ───────────────────────────
+# TreeBranch
+TREE_TRUNK = (101, 67, 33)
+TREE_TRUNK_LIGHT = (130, 90, 45)
+TREE_TRUNK_DARK = (65, 40, 18)
+TREE_LEAF = (34, 139, 34)
+TREE_LEAF_LIGHT = (80, 190, 60)
+TREE_LEAF_DARK = (15, 90, 20)
+TREE_LEAF_MID = (50, 155, 45)
+
+# CampusBanner
+BANNER_RED = (195, 25, 30)
+BANNER_RED_LIGHT = (225, 55, 55)
+BANNER_RED_DARK = (150, 15, 18)
+BANNER_TEXT = (255, 255, 220)
+BANNER_POLE = (130, 135, 145)
+BANNER_POLE_HL = (175, 180, 190)
+
+# BarrierGate
+BARRIER_RED = (215, 35, 35)
+BARRIER_POST = (110, 115, 125)
+BARRIER_POST_HL = (160, 165, 175)
+BARRIER_COUNTER = (60, 60, 70)
+
+# ── Improved Shading ───────────────────────────────────────────
+SHADOW = (0, 0, 0, 50)
+CONE_HIGHLIGHT = (255, 175, 80)
+CONE_SHADOW = (200, 100, 15)
+TRASH_HIGHLIGHT = (145, 170, 190)
+TRASH_SHADOW = (55, 75, 90)
+CART_HIGHLIGHT = (235, 85, 85)
+CART_WHEEL = (50, 50, 50)
+SIGN_TEXT = (255, 255, 255)
+SIGN_ARROW = (255, 255, 200)
+
+# Overhead obstacle collision constant
+OVERHEAD_BOTTOM = GROUND_Y - 42  # between standing top (388) and sliding top (420)
+
 HUD_BG = (0, 0, 0, 140)
 TEXT_LIGHT = (240, 240, 240)
 TEXT_ACCENT = (255, 200, 50)
