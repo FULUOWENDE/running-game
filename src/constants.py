@@ -44,22 +44,9 @@ HIGHSCORE_FILE = "highscore.txt"
 
 # ── Color Palette ────────────────────────────────────────────
 OUTLINE = (40, 40, 40)
-SKY_TOP = (135, 206, 235)
-SKY_BOTTOM = (224, 240, 255)
-CLOUD = (255, 255, 255)
-
-BUILDING_PALETTE = [
-    (255, 204, 153),  # peach
-    (178, 223, 219),  # mint
-    (197, 176, 213),  # lavender
-    (255, 245, 157),  # butter
-    (179, 208, 255),  # sky blue
-    (255, 182, 182),  # salmon
-]
 
 GROUND_LIGHT = (200, 190, 175)
 GROUND_DARK = (170, 160, 145)
-ROAD_LINE = (255, 255, 255, 80)
 
 PLAYER_BODY = (220, 60, 60)
 PLAYER_SKIN = (255, 220, 180)

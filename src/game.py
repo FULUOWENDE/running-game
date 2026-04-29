@@ -130,7 +130,7 @@ class Game:
     def draw(self):
         self.screen.fill((135, 206, 235))
 
-        self.background.draw(self.screen, self.ground_offset, self.speed, self.state == PLAYING)
+        self.background.draw(self.screen, self.ground_offset)
 
         # obstacles
         for o in self.obstacles:
